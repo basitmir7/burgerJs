@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./burger.css" />
+    <script type="text/javascript" src="./burger.js"></script>
+  </head>
+
+  <body>
+    <div class="main-container" id="main">
+      <h1>CRAZY BURGER</h1>
+      <div class="flex-container" id="second">
+        <div class="btns">
+          <div class="control" id="cont">
+            <p>CHEEZE :</p>
+            <button class="Btn" onclick="addCheeze()">Add</button
+            ><button onclick="removeCheeze()">Remove</button>
+          </div>
+          <div class="control">
+            <p>MEAT :</p>
+            <button class="Btn" onclick="addMeat()">Add</button
+            ><button onclick="takeMeat()">Remove</button>
+          </div>
+          <div class="control">
+            <p>SPINACH :</p>
+            <button class="Btn" onclick="addSpinach()">Add</button
+            ><button onclick="removeSpinach()">Remove</button>
+          </div>
+
+          <div class="control">
+            <p>MAKE IT MALLER :</p>
+            <button onclick="makeSmall()">Shrink</button>
+          </div>
+          <div class="control">
+            <p>FLIP :</p>
+            <button onclick="flipFun()">boom!</button>
+          </div>
+          <div class="control">
+            <p>NIGHT MODE :</p>
+            <input
+              type="checkbox"
+              style="font-size: 25px"
+              id="nightmode"
+              onclick="nightMode()"
+            />
+          </div>
+        </div>
+
+        <div class="burger-flex" id="Burger">
+          <div class="section-1" id="upper-bread">
+            <div class="dots" id="d1"></div>
+            <div class="dots" id="d2"></div>
+            <div class="dots" id="d3"></div>
+            <div class="dots" id="d4"></div>
+            <div class="dots" id="d5"></div>
+            <div class="dots" id="d6"></div>
+            <div class="dots" id="d7"></div>
+          </div>
+          <div class="cheeze" id="cheez"></div>
+          <div class="section-2" id="spinach"></div>
+          <div class="section-3" id="steak"></div>
+          <div class="section-4" id="lower-bread"></div>
+        </div>
+      </div>
+    </div>
+
+    <dialog id="dialogBox" class="dialog">
+      <button onclick="closeDialog(),closeEffect()">+</button>
+      <p>Sorry ! can't do that.</p>
+    </dialog>
+  </body>
+</html>

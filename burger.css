@@ -1,0 +1,198 @@
+.main-container {
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container {
+  display: flex;
+}
+.burger-flex {
+  height: 500px;
+  width: 41%;
+  background: rgb(255, 255, 255);
+  margin-top: 7%;
+  margin-left: 14%;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.section-1 {
+  display: flex;
+  background: linear-gradient(to left, rgb(189, 148, 60), rgb(241, 189, 76));
+  height: 35%;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+  margin: 0 18px 3px 18px;
+
+  border-bottom: 2px solid rgb(184, 126, 39);
+  border-right: 18px solid rgb(184, 126, 39);
+}
+.section-2 {
+  background: linear-gradient(to left, rgb(19, 73, 19), rgb(35, 122, 35));
+  height: 8%;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom: 3px solid rgb(7, 99, 7);
+  border-right: 18px solid rgb(6, 83, 6);
+}
+.section-3 {
+  background: linear-gradient(to left, rgb(71, 14, 12), rgb(129, 16, 12));
+
+  height: 15%;
+  border-radius: 240px;
+}
+
+.section-4 {
+  background: linear-gradient(to left, rgb(151, 120, 34), rgb(226, 175, 65));
+  height: 25%;
+  border-radius: 24px;
+  border-top: 4px solid rgb(136, 67, 26);
+  border-bottom: 5px solid rgb(184, 126, 39);
+  border-right: 18px solid rgb(184, 126, 39);
+
+  box-shadow: 0 41px 37px 0 rgb(0 0 0 / 17%), 0 6px 60px 0 rgb(0 0 0 / 40%);
+}
+
+.main-container h1 {
+  width: 50%;
+  margin-left: 39%;
+  font-weight: bold;
+  color: rgb(168, 0, 0);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.cheeze {
+  height: 3%;
+  background: rgb(255, 252, 49);
+  border: 1.5px solid rgb(228, 228, 10);
+  border-radius: 40px 40px 40px 40px;
+  margin-bottom: 0.4%;
+}
+
+.btns {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  align-items: center;
+  width: 31%;
+  margin-top: 7%;
+}
+
+.control {
+  display: flex;
+  margin-top: 10%;
+  justify-content: space-between;
+  width: 60%;
+  height: 5%;
+}
+.control button {
+  font-size: 13px;
+
+  margin-top: 6%;
+  margin-bottom: -8px;
+
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-weight: bold;
+
+  background: rgb(37, 37, 37);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.control button:hover {
+  transform: scale(1.2);
+  background: #75756e;
+  color: black;
+  transition: ease-in-out 130ms;
+}
+
+.control p {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(168, 0, 0);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#nightmode {
+  margin-top: 8%;
+}
+/* placing dots */
+
+.dots {
+  border-radius: 90%;
+  height: 2.8%;
+  width: 1.7%;
+  background: rgb(138, 84, 4);
+}
+
+#d1 {
+  margin: 120px 3px 14px 52px;
+}
+#d2 {
+  margin: 31px 28px 33px 42px;
+}
+#d3 {
+  margin: 77px 28px 33px 42px;
+}
+#d4 {
+  margin: 130px 30px 33px 42px;
+}
+#d5 {
+  margin: 38px 33px 33px 42px;
+}
+#d6 {
+  margin: 110px 30px 33px 42px;
+}
+#d7 {
+  margin: 81px 39px 33px 42px;
+}
+
+/* diaslog css */
+
+.dialog {
+  position: fixed;
+  z-index: 1;
+  top: 36%;
+  left: 0%;
+  width: 34%;
+  height: 17%;
+  border-radius: 24px;
+
+  border: 2px solid rgb(168, 0, 0);
+  transition: 150ms;
+  background: rgb(241, 159, 134);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.dialog p {
+  margin-top: 7%;
+  text-align: center;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(168, 0, 0);
+}
+.dialog button {
+  font-size: 30px;
+  border-radius: 100%;
+  width: 8.5%;
+  transform: rotate(45deg);
+  margin-left: 95%;
+  margin-top: -3.4%;
+  border: 1px solid rgb(66, 66, 66);
+  background: white;
+}
+
+.dialog button:hover {
+  background: rgb(194, 194, 194);
+}
