@@ -11,6 +11,9 @@ To cotribute ans share some ideas :
 
 2.Create a branch 
 
-3.showcase your code and idea through codepen.io
+3.showcase your code and idea through <a href="https://codepen.io">codepen</a>
 
 4.Create pull request
+
+Author:
+<a href="https://github.com/basitmir7">Basit Mir</a>
