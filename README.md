@@ -5,7 +5,7 @@ place it in a single folder as the path of the files have been kept that way.
 
 Burger has centain functionalities to add ,remove the ingrediants.
 
-To cotribute ans share some ideas :
+To contribute and share some ideas :
 
 1.Clone the repo
 
